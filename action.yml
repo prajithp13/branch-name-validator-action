@@ -4,7 +4,7 @@ branding:
   icon: "git-branch"
   color: "red"
 inputs:
-  pattern:
+  branches:
     description: "Multi line Regex pattern that the current branch name should match"
     required: false
     default: |
