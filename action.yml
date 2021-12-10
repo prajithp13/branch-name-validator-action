@@ -1,0 +1,16 @@
+name: "Branch Name Validator"
+description: "Validate the current branch name"
+branding:
+  icon: "git-branch"
+  color: "red"
+inputs:
+  pattern:
+    description: "Multi line Regex pattern that the current branch name should match"
+    required: false
+    default: |
+       '^main$'
+       '^master$'
+       '^hotfix\/.*'
+runs:
+  using: "node12"
+  main: "dist/index.js"
