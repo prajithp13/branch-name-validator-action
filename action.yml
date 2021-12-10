@@ -8,9 +8,9 @@ inputs:
     description: "Multi line Regex pattern that the current branch name should match"
     required: false
     default: |
-       "^main$"
-       "^master$"
-       "^hotfix\/.*"
+       ^main$
+       ^master$
+       ^hotfix\/.*
 runs:
   using: "node12"
   main: "dist/index.js"
