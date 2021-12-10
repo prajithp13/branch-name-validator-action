@@ -11,7 +11,6 @@ async function run() {
 
     let isMatching = false
     branches.forEach( (name) => {
-      core.info("Evaluating branch " + name)
       if (name && branchName.match(name)) {
         isMatching = true
         return 

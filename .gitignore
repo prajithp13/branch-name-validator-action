@@ -1,6 +1,6 @@
 node_modules/
 example/
-
+index.test.js
 # Editors
 .vscode/
 .idea/
